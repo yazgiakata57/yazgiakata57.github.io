@@ -1,2 +1,1 @@
-# yazgiakata.github.io
-Yazgi's Personal Website
+Hello, this is Yazgi's personal website template/setup. In this repo, I used react+vite pipeline, react router(react-router-dom) and react icons (react-icons).
