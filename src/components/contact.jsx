@@ -1,6 +1,7 @@
 import Navbar from "./nav_bar.jsx"
 import { MdEmail } from "react-icons/md"
 import { FaGithub, FaLinkedin } from "react-icons/fa"
+import Footer from "./Footer.jsx"
 
 export default function ContactPage() {
   return (
@@ -71,6 +72,7 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+      <Footer/>
     </main>
   )
 }
