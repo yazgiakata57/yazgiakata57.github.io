@@ -2,4 +2,21 @@
 
 html {
   scroll-behavior: smooth;
+  background: #211B65;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #211B65;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+  background: #211B65;
+}
+
+* {
+  box-sizing: border-box;
 }
