@@ -7,7 +7,7 @@ import cv from "./assets/Guller_Yazgi_Akata_CV.pdf"
 
 function HomePage() {
   return (
-    <main className="min-h-screen overflow-x-hidden bg-[#211B65] text-[#F7F4EE]">
+    <main className="min-h-screen overflow-x-hidden bg-[#211B65] pb-32 text-[#F7F4EE]">
       <Navbar />
       <IntroSection />
     </main>
@@ -16,7 +16,7 @@ function HomePage() {
 
 function CVPage() {
   return (
-    <main className="min-h-screen overflow-x-hidden bg-[#211B65] text-[#F7F4EE]">
+    <main className="min-h-screen overflow-x-hidden bg-[#211B65] pb-32 text-[#F7F4EE]">
       <Navbar />
 
       <div className="mx-auto max-w-6xl px-10 py-10">

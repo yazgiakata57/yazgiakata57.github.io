@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa"
 
 export default function ContactPage() {
   return (
-    <main className="min-h-screen overflow-x-hidden bg-[#211B65] text-[#F7F4EE]">
+    <main className="min-h-screen overflow-x-hidden bg-[#211B65] pb-32 text-[#F7F4EE]">
       <Navbar />
 
       <section className="flex min-h-[80vh] items-center justify-center px-6">
