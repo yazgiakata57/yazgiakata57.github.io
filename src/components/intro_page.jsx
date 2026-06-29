@@ -3,9 +3,9 @@ import profileImage from "../assets/yazgi.jpeg";
 export default function IntroSection() {
   return (
     <section
-      id="about"
-      className="mx-auto flex max-w-5xl flex-col items-center gap-12 px-6 pt-16 pb-20 md:flex-row md:items-center md:gap-16 md:px-8"
-    >
+  id="about"
+  className="mx-auto flex min-h-[calc(100vh-120px)] max-w-5xl flex-col items-center gap-12 px-6 pt-16 pb-32 md:flex-row md:items-center md:gap-16 md:px-8"
+>
       {/* Portrait */}
       <div className="w-[280px] shrink-0 md:w-[330px]">
         <div className="overflow-hidden rounded-[2rem] border border-[#B7A8E8]/30 shadow-2xl">
