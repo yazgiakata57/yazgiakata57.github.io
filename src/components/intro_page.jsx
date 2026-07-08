@@ -3,28 +3,28 @@ import profileImage from "../assets/yazgi.jpeg";
 export default function IntroSection() {
   return (
     <section
-  id="about"
-  className="mx-auto flex min-h-[calc(100vh-120px)] max-w-5xl flex-col items-center gap-12 px-6 pt-16 md:flex-row md:items-center md:gap-16 md:px-8"
->
+      id="about"
+      className="mx-auto flex min-h-[calc(100vh-120px)] max-w-6xl flex-col items-center justify-center px-6 py-20 md:px-10"
+    >
       {/* Portrait */}
-      <div className="w-[280px] shrink-0 md:w-[330px]">
-        <div className="overflow-hidden rounded-[2rem] border border-[#B7A8E8]/30 shadow-2xl">
+      <div className="mb-10">
+        <div className="mx-auto overflow-hidden rounded-full border border-[#B7A8E8]/25 shadow-xl">
           <img
             src={profileImage}
             alt="Portrait of Yazgı Akata"
-            className="h-[380px] w-full object-cover md:h-[440px]"
+            className="h-[200px] w-[200px] object-cover md:h-[220px] md:w-[220px]"
           />
         </div>
       </div>
 
       {/* Introduction */}
-      <div className="max-w-2xl text-center md:text-left">
-        <h2 className="text-4xl font-semibold leading-tight">
+      <div className="max-w-4xl">
+        <h2 className="text-center text-4xl font-semibold leading-tight md:text-5xl">
           <span className="text-[#F7F4EE]">Hello! My name is </span>
           <span className="italic text-[#C9829B]">Yazgı.</span>
         </h2>
 
-        <div className="mt-8 space-y-6 text-lg leading-8 text-[#D7CEF2]">
+        <div className="mt-10 space-y-7 text-left text-lg leading-8 text-[#D7CEF2] md:text-xl md:leading-9">
           <p>
             I am an incoming{" "}
             <span className="font-semibold text-[#F7F4EE]">

@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 import Navbar from "./components/nav_bar.jsx"
 import IntroSection from "./components/intro_page.jsx"
+import AboutPage from "./components/about_page.jsx"
 import ContactPage from "./components/contact.jsx"
 import cv from "./assets/Guller_Yazgi_Akata_CV.pdf"
 import Footer from "./components/Footer.jsx"
@@ -11,6 +12,16 @@ function HomePage() {
     <main className="min-h-screen overflow-x-hidden bg-[#211B65] pb-32 text-[#F7F4EE]">
       <Navbar />
       <IntroSection />
+      <Footer/>
+    </main>
+  )
+}
+
+function About() {
+  return (
+    <main className="min-h-screen overflow-x-hidden bg-[#211B65] pb-32 text-[#F7F4EE]">
+      <Navbar />
+      <AboutPage />
       <Footer/>
     </main>
   )
@@ -42,6 +53,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/cv" element={<CVPage />} />
+        {/* <Route path="/about" element={<About />} /> */}
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </BrowserRouter>
