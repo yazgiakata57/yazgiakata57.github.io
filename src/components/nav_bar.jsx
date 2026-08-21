@@ -6,11 +6,6 @@ function Navbar() {
 
   return (
     <header
-      className="border-b"
-      style={{
-        backgroundColor: "var(--color-paper)",
-        borderColor: "var(--color-border)",
-      }}
     >
       <nav className="mx-auto flex max-w-6xl items-start justify-between px-6 py-8 md:px-10 md:py-12">
         {/* Logo */}
