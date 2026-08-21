@@ -39,7 +39,7 @@ function CVPage() {
           className="h-[90vh] w-full rounded-2xl"
         />
       </div>
-      <p className="mt-5 text-center text-sm italic text-[#B7A8E8]/70">
+      <p className="mt-5 text-center text-sm italic text-[#4a4949]/70">
     Last updated: December 2025.
     </p>
       <Footer/>
