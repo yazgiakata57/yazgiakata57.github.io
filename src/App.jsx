@@ -9,7 +9,7 @@ import Footer from "./components/Footer.jsx"
 
 function HomePage() {
   return (
-    <main className="min-h-screen overflow-x-hidden bg-[#211B65] pb-32 text-[#F7F4EE]">
+    <main className="min-h-screen overflow-x-hidden pb-32 text-[#F7F4EE]">
       <Navbar />
       <IntroSection />
       <Footer/>
@@ -19,7 +19,7 @@ function HomePage() {
 
 function About() {
   return (
-    <main className="min-h-screen overflow-x-hidden bg-[#211B65] pb-32 text-[#F7F4EE]">
+    <main className="min-h-screen overflow-x-hidden pb-32 text-[#F7F4EE]">
       <Navbar />
       <AboutPage />
       <Footer/>
@@ -29,7 +29,7 @@ function About() {
 
 function CVPage() {
   return (
-    <main className="min-h-screen overflow-x-hidden bg-[#211B65] pb-32 text-[#F7F4EE]">
+    <main className="min-h-screen overflow-x-hidden pb-32 text-[#F7F4EE]">
       <Navbar />
 
       <div className="mx-auto max-w-6xl px-10 py-10">

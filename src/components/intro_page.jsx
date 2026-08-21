@@ -8,7 +8,12 @@ export default function IntroSection() {
     >
       {/* Portrait */}
       <div className="mb-10">
-        <div className="mx-auto overflow-hidden rounded-full border border-[#B7A8E8]/25 shadow-xl">
+        <div
+          className="mx-auto overflow-hidden rounded-full border shadow-xl"
+          style={{
+            borderColor: "var(--color-accent-blue)",
+          }}
+        >
           <img
             src={profileImage}
             alt="Portrait of Yazgı Akata"
@@ -20,14 +25,28 @@ export default function IntroSection() {
       {/* Introduction */}
       <div className="max-w-4xl">
         <h2 className="text-center text-4xl font-semibold leading-tight md:text-5xl">
-          <span className="text-[#F7F4EE]">Hello! My name is </span>
-          <span className="italic text-[#C9829B]">Yazgı.</span>
+          <span style={{ color: "var(--color-ink)" }}>
+            Hello! My name is{" "}
+          </span>
+
+          <span
+            className="italic"
+            style={{ color: "var(--color-accent-magenta)" }}
+          >
+            Yazgı.
+          </span>
         </h2>
 
-        <div className="mt-10 space-y-7 text-left text-lg leading-8 text-[#D7CEF2] md:text-xl md:leading-9">
+        <div
+          className="mt-10 space-y-7 text-left text-lg leading-8 md:text-xl md:leading-9"
+          style={{ color: "var(--color-muted)" }}
+        >
           <p>
             I am an incoming{" "}
-            <span className="font-semibold text-[#F7F4EE]">
+            <span
+              className="font-semibold"
+              style={{ color: "var(--color-ink)" }}
+            >
               Computer Science PhD student
             </span>{" "}
             at{" "}
@@ -35,7 +54,8 @@ export default function IntroSection() {
               href="https://www.vt.edu/"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-semibold text-[#C6A15B] transition hover:underline"
+              className="font-semibold transition hover:underline"
+              style={{ color: "var(--color-accent-blue)" }}
             >
               Virginia Tech
             </a>
@@ -44,7 +64,8 @@ export default function IntroSection() {
               href="https://people.cs.vt.edu/sanmay/"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-semibold text-[#C9829B] transition hover:underline"
+              className="font-semibold transition hover:underline"
+              style={{ color: "var(--color-accent-magenta)" }}
             >
               Dr. Sanmay Das
             </a>
@@ -53,16 +74,23 @@ export default function IntroSection() {
               href="https://www.buffalo.edu/"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-semibold text-[#C6A15B] transition hover:underline"
+              className="font-semibold transition hover:underline"
+              style={{ color: "var(--color-accent-blue)" }}
             >
               University at Buffalo (UB)
             </a>{" "}
             with a Bachelor of Science in{" "}
-            <span className="font-semibold text-[#F7F4EE]">
+            <span
+              className="font-semibold"
+              style={{ color: "var(--color-ink)" }}
+            >
               Computer Science
             </span>{" "}
             and a minor in{" "}
-            <span className="font-semibold text-[#F7F4EE]">
+            <span
+              className="font-semibold"
+              style={{ color: "var(--color-ink)" }}
+            >
               Philosophy, Politics and Economics (PPE)
             </span>
             . At UB, I was a{" "}
@@ -70,7 +98,8 @@ export default function IntroSection() {
               href="https://www.yef.education/"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-semibold text-[#C6A15B] transition hover:underline"
+              className="font-semibold transition hover:underline"
+              style={{ color: "var(--color-accent-blue)" }}
             >
               Yıldızlar Education Fund (YEF) Scholar
             </a>{" "}
@@ -79,7 +108,8 @@ export default function IntroSection() {
               href="https://cse.buffalo.edu/faculty/atri/"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-semibold text-[#C9829B] transition hover:underline"
+              className="font-semibold transition hover:underline"
+              style={{ color: "var(--color-accent-magenta)" }}
             >
               Dr. Atri Rudra
             </a>
@@ -88,23 +118,38 @@ export default function IntroSection() {
 
           <p>
             I am excited to explore the tradeoff between{" "}
-            <span className="font-semibold text-[#F7F4EE]">
+            <span
+              className="font-semibold"
+              style={{ color: "var(--color-ink)" }}
+            >
               personalization
             </span>{" "}
             and{" "}
-            <span className="font-semibold text-[#F7F4EE]">
+            <span
+              className="font-semibold"
+              style={{ color: "var(--color-ink)" }}
+            >
               diversification
             </span>{" "}
             in{" "}
-            <span className="font-semibold text-[#F7F4EE]">
+            <span
+              className="font-semibold"
+              style={{ color: "var(--color-ink)" }}
+            >
               recommendation systems
             </span>
             , grounded in methodologies from{" "}
-            <span className="font-semibold text-[#F7F4EE]">
+            <span
+              className="font-semibold"
+              style={{ color: "var(--color-ink)" }}
+            >
               computational
             </span>{" "}
             and{" "}
-            <span className="font-semibold text-[#F7F4EE]">
+            <span
+              className="font-semibold"
+              style={{ color: "var(--color-ink)" }}
+            >
               social sciences
             </span>
             .
@@ -116,7 +161,8 @@ export default function IntroSection() {
               href="https://www.darussafaka.org/en/schools"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-semibold text-[#C6A15B] transition hover:underline"
+              className="font-semibold transition hover:underline"
+              style={{ color: "var(--color-accent-blue)" }}
             >
               Darüşşafaka Schools
             </a>{" "}
@@ -125,7 +171,8 @@ export default function IntroSection() {
               href="https://www.yesprograms.org/"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-semibold text-[#C6A15B] transition hover:underline"
+              className="font-semibold transition hover:underline"
+              style={{ color: "var(--color-accent-blue)" }}
             >
               Kennedy-Lugar Youth Exchange and Study (KL-YES) Program
             </a>
