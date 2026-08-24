@@ -4,7 +4,7 @@ import Navbar from "./components/nav_bar.jsx"
 import IntroSection from "./components/intro_page.jsx"
 import AboutPage from "./components/about_page.jsx"
 import ContactPage from "./components/contact.jsx"
-import cv from "./assets/Guller_Yazgi_Akata_CV.pdf"
+import cv from "./assets/Yazgi_Akata_Resume (1).pdf"
 import Footer from "./components/Footer.jsx"
 
 function HomePage() {
@@ -40,7 +40,7 @@ function CVPage() {
         />
       </div>
       <p className="mt-5 text-center text-sm italic text-[#4a4949]/70">
-    Last updated: December 2025.
+    Last updated: August 2026.
     </p>
       <Footer/>
     </main>
