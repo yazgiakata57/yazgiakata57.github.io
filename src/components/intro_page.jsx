@@ -183,7 +183,7 @@ export default function IntroSection() {
 
           <p>
             In my free time, I enjoy hiking, reading, running, spending time
-            with my dog, exploring new places, hobbies, and ideas.
+            with my dog, exploring new places, and ideas.
           </p>
         </div>
       </div>
