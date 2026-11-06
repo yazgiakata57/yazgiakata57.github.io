@@ -4,7 +4,7 @@ import Navbar from "./components/nav_bar.jsx"
 import IntroSection from "./components/intro_page.jsx"
 import AboutPage from "./components/about_page.jsx"
 import ContactPage from "./components/contact.jsx"
-import cv from "./assets/Yazgi_Akata_Resume (6).pdf"
+import cv from "./assets/Yazgi_Akata_Resume.pdf"
 import Footer from "./components/Footer.jsx"
 
 function HomePage() {
