@@ -182,8 +182,7 @@ export default function IntroSection() {
           </p>
 
           <p>
-            In my free time, I enjoy hiking, reading, running, spending time
-            with my dog, exploring new places, and ideas.
+            In my free time, I enjoy running, hiking, reading, coffee chats, exploring new places and ideas. I have been picking up golf. Also, I am a big fan of Ursula K. LeGuin's work, and I enjoy watching the Buffalo Bills. I am always happy to connect regarding research, collaborations, opportunities or ideas. Feel free to reach out!
           </p>
         </div>
       </div>
